@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        
+
         <link rel="icon" href="img/fav-icon.png" type="image/x-icon" />
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
         <title>sunsnine solar</title>
@@ -13,17 +13,17 @@
         <link href="css/font-awesome.min.css" rel="stylesheet">
         <!-- Bootstrap -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
-        
+
         <!-- Rev slider css -->
         <link href="vendors/revolution/css/settings.css" rel="stylesheet">
         <link href="vendors/revolution/css/layers.css" rel="stylesheet">
         <link href="vendors/revolution/css/navigation.css" rel="stylesheet">
-        
+
         <!-- Extra plugin css -->
         <link href="vendors/owl-carousel/owl.carousel.min.css" rel="stylesheet">
         <link href="vendors/magnify-popup/magnific-popup.css" rel="stylesheet">
-        
-        
+
+
         <link href="css/style.css" rel="stylesheet">
         <link href="css/responsive.css" rel="stylesheet">
 
@@ -35,29 +35,11 @@
         <![endif]-->
     </head>
     <body>
-        
-        <!--================Header Menu Area =================-->
-        <header class="main_menu_area">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#"><img src="img/logo.png" alt=""></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
 
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav">
-                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="service.html">Services</a></li>
-                        <li class="nav-item active"><a class="nav-link" href="portfolio.html">Products</a></li>
-                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
-            </nav>
-        </header>
+        <!--================Header Menu Area =================-->
+        <?php include("menu.php"); ?>
         <!--================End Header Menu Area =================-->
-        
+
         <!--================Banner Area =================-->
         <section class="banner_area">
             <div class="container">
@@ -68,7 +50,7 @@
             </div>
         </section>
         <!--================End Banner Area =================-->
-        
+
         <!--================Portfolio Area =================-->
         <section class="portfolio_area">
             <div class="container">
@@ -87,29 +69,33 @@
                     <img src="img/products/panel1.3.png" alt="">
                     <center>
                         <h3>Panel 1</h3>
-                        <p>Description of panel</p>
-                        <br><br>                        
+                        <p>Description of panel</p><br>
+                        <button type="button" class="btn btn-success">Technical details</button>
+                        <br><br>
                     </center>
                 </div>
                 <div class="col-md-3 ms_p_item wd_25 brand arc panels">
                     <img src="img/products/panel1.3.png" alt="">
                     <center>
                         <h3>Panel 2</h3>
-                        <p>Description of panel</p>                        
+                        <p>Description of panel</p><br>
+                        <button type="button" class="btn btn-success">Technical details</button>
                     </center>
                 </div>
                 <div class="col-md-3 ms_p_item wd_25 brand arc panels">
                     <img src="img/products/panel1.3.png" alt="">
                     <center>
                         <h3>Panel 3</h3>
-                        <p>Description of panel</p>                        
+                        <p>Description of panel</p><br>
+                        <button type="button" class="btn btn-success">Technical details</button>
                     </center>
                 </div>
                 <div class="col-md-3 ms_p_item wd_25 brand arc panels">
                     <img src="img/products/panel1.3.png" alt="">
                     <center>
                         <h3>Panel 4</h3>
-                        <p>Description of panel</p>                        
+                        <p>Description of panel</p><br>
+                        <button type="button" class="btn btn-success">Technical details</button>
                     </center>
                 </div>
             </div>
@@ -120,27 +106,31 @@
                     <img src="img/products/battery2.3.png" alt="">
                     <center>
                         <h3>Light 1</h3>
-                        <p>Description of Lights</p>
+                        <p>Description of Lights</p><br>
+                        <button type="button" class="btn btn-success">Technical details</button>
                     </center>
                 </div>
                 <div class="col-md-3 ms_p_item wd_25 brand arc batteries">
                     <img src="img/products/battery2.3.png" alt="">
                     <center>
                         <h3>Light 2</h3>
-                        <p>Description of Lights</p>
+                        <p>Description of Lights</p><br>
+                        <button type="button" class="btn btn-success">Technical details</button>
                     </center>
                 </div>
                 <div class="col-md-3 ms_p_item wd_25 brand arc batteries">
                     <img src="img/products/battery2.3.png" alt="">
                     <center>
                         <h3>Light 3</h3>
-                        <p>Description of Lights</p>
+                        <p>Description of Lights</p><br>
+                        <button type="button" class="btn btn-success">Technical details</button>
                     </center>
                 </div><div class="col-md-3 ms_p_item wd_25 brand arc batteries">
                     <img src="img/products/battery2.3.png" alt="">
                     <center>
                         <h3>Light 4</h3>
-                        <p>Description of Lights</p>
+                        <p>Description of Lights</p><br>
+                        <button type="button" class="btn btn-success">Technical details</button>
                     </center>
                 </div>
             </div>
@@ -151,61 +141,45 @@
                     <img src="img/products/lamp1.2.png" alt="">
                     <center>
                         <h3>Battery 1</h3>
-                        <p>Description of battery</p>
+                        <p>Description of battery</p><br>
+                        <button type="button" class="btn btn-success">Technical details</button>
                     </center>
                 </div>
                 <div class="col-md-3 ms_p_item wd_25 brand arc lights">
                     <img src="img/products/lamp1.2.png" alt="">
                     <center>
                         <h3>Battery 2</h3>
-                        <p>Description of battery</p>
+                        <p>Description of battery</p><br>
+                        <button type="button" class="btn btn-success">Technical details</button>
                     </center>
                 </div>
                 <div class="col-md-3 ms_p_item wd_25 brand arc lights">
                     <img src="img/products/lamp1.2.png" alt="">
                     <center>
                         <h3>Battery 3</h3>
-                        <p>Description of battery</p>
+                        <p>Description of battery</p><br>
+                        <button type="button" class="btn btn-success">Technical details</button>
                     </center>
                 </div>
                 <div class="col-md-3 ms_p_item wd_25 brand arc lights">
                     <img src="img/products/lamp1.2.png" alt="">
                     <center>
                         <h3>Battery 4</h3>
-                        <p>Description of battery</p>
+                        <p>Description of battery</p><br>
+                        <button type="button" class="btn btn-success">Technical details</button><br>
                     </center>
                 </div>
             </div>
         </section>
         <!--================End Portfolio Area =================-->
-        
+
         <!--================Footer Area =================-->
-        <footer class="footr_area">
-            <div class="footer_copyright">
-                <div class="container">
-                    <div class="float-sm-left">
-                        <h5><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></h5>
-                    </div>
-                    <div class="float-sm-right">
-                        <ul>
-                            <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                            <li><a href="#"><i class="fa fa-behance"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </footer>
+        <?php include("footer.php"); ?>
         <!--================End Footer Area =================-->
-        
-        
-        
-        
+
+
+
+
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="js/jquery-3.2.1.min.js"></script>
         <!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -222,7 +196,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
         <script src="vendors/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
         <!-- Extra plugin css -->
         <script src="vendors/counterup/jquery.waypoints.min.js"></script>
-        <script src="vendors/counterup/jquery.counterup.min.js"></script> 
+        <script src="vendors/counterup/jquery.counterup.min.js"></script>
         <script src="vendors/counterup/apear.js"></script>
         <script src="vendors/counterup/countto.js"></script>
         <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
@@ -232,7 +206,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
         <script src="vendors/circle-bar/plugins.js"></script>
         <script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
         <script src="vendors/isotope/isotope.pkgd.min.js"></script>
-        
+
         <script src="js/circle-active.js"></script>
         <script src="js/theme.js"></script>
     </body>

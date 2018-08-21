@@ -7,7 +7,7 @@
 
         <link rel="icon" href="img/fav-icon.png" type="image/x-icon" />
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-        <title>sunshinesolar</title>
+        <title>Sunshine Solar</title>
 
         <!-- Icon css link -->
         <link href="css/font-awesome.min.css" rel="stylesheet">
@@ -37,26 +37,7 @@
     <body>
 
         <!--================Header Menu Area =================-->
-        <header class="main_menu_area">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#"><img src="img/logo.png" alt=""></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
-
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav">
-                        <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#whoweare">About Us</a></li>
-                        <li class="nav-item"><a class="nav-link" href="service.html">Services</a></li>
-                        <li class="nav-item"><a class="nav-link" href="portfolio.html">Products</a></li>
-                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
-            </nav>
-        </header>
+        <?php include("menu.php"); ?>
         <!--================End Header Menu Area =================-->
 
 
@@ -68,9 +49,9 @@
                         <img src="img/products/panel1.3.png" width="100%" height="100%">
                     </div>
                     <div class="col-md-6 mx-auto">
-                        <h1 class="text-lowercase" style="margin-top: 100px;">
+                        <h1 class="" style="margin-top: 100px;">
                             <strong>
-                                <span class="color1">Sunshine</span><span class="color2">Solar</span>
+                                <span class="color1 introText">Sunshine </span><span class="color2 introText">Solar</span>
                             </strong>
                         </h1>
                         <hr>
@@ -80,12 +61,14 @@
         </header>
         <!--================End Slider Area =================-->
 
-         <!--================The best slider Area =================-->
+        <!--================The best slider Area =================-->
+
+
         <section class="best_3d_area" id="whoweare">
             <div class="left_3d">
                 <div class="shap_slider_inner owl-carousel">
                     <div class="item">
-                        <h4>“Comments of users”</h4>
+                        <h4>Our Quality Certificates</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -140,7 +123,7 @@
                         <div class="l_title">
                             <img src="img/icon/title-icon.png" alt="">
                             <h6>Discover a little more</h6>
-                            <h2>who we are?</h2>
+                            <h2>Who we are?</h2>
                         </div>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -162,17 +145,31 @@
             <div class="container">
                 <div class="c_title">
                     <img src="img/icon/title-icon.png" alt="">
-                    <h6>The best of <span>sunshine</span><span style="color: #FFC600;">solar</span></h6>
-                    <h2>Our Products</h2>
+                    <h6>The best of <span>sunshine</span><span style="color: #FFC600;"> solar</span></h6>
+                    <h2>Our Featured Products</h2>
                 </div>
                 <div class="row feature_inner">
                     <div class="col-lg-4 col-sm-6">
                         <div class="feature_item">
                             <div class="f_icon">
-                                <img src="img/icon/f-icon-1.png" alt="">
+                                <img src="img/icon/f-icon-3.png" alt="">
                             </div>
                             <h4>Solar Panels</h4>
-                            <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit. Etiam nec odio vestibul. </p>
+                            <p>
+                              Solar panels with German technology of 10, 15, 15, 20, 40, 60 watts and more...
+                            </p>
+                            <a class="more_btn" href="portfolio.html">Read More</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="feature_item">
+                            <div class="f_icon">
+                                <img src="img/icon/f-icon-1.png" alt="">
+                            </div>
+                            <h4>Batteries</h4>
+                            <p>
+                              Last generation Lithium Batteries
+                            </p>
                             <a class="more_btn" href="portfolio.html">Read More</a>
                         </div>
                     </div>
@@ -181,18 +178,10 @@
                             <div class="f_icon">
                                 <img src="img/icon/f-icon-2.png" alt="">
                             </div>
-                            <h4>Batteries</h4>
-                            <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit. Etiam nec odio vestibul. </p>
-                            <a class="more_btn" href="portfolio.html">Read More</a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <div class="feature_item">
-                            <div class="f_icon">
-                                <img src="img/icon/f-icon-3.png" alt="">
-                            </div>
                             <h4>LED Lights</h4>
-                            <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit. Etiam nec odio vestibul. </p>
+                            <p>
+                              Ultra-bright LED saving lights
+                            </p>
                             <a class="more_btn" href="portfolio.html">Read More</a>
                         </div>
                     </div>
@@ -217,30 +206,8 @@
         <!--================End Map Area =================-->
 
         <!--================Footer Area =================-->
-        <footer class="footr_area">
-            <div class="footer_copyright">
-                <div class="container">
-                    <div class="float-sm-left">
-                        <h5>
-                          <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                          Copyright &copy;<script>document.write(new Date().getFullYear());</script> Sunshine Solar, S.A. All rights reserved | Made with  <a href="https://colorlib.com" target="_blank">Colorlib</a> and powered by <a href="https://bitcoude.com/" target="_blank">Bit Coude</a>
-                          <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                        </h5>
-                    </div>
-                    <div class="float-sm-right">
-                        <ul>
-                            <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                            <li><a href="#"><i class="fa fa-behance"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <!--================End Footer Area =================-->
+        <?php include("footer.php"); ?>
+        <!--================Footer Area =================-->
 
 
 
@@ -273,9 +240,3 @@
         <script src="js/theme.js"></script>
     </body>
 </html>
-
-<?php
-
-echo "hola";
-
- ?>

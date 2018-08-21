@@ -10,14 +10,13 @@ header.masthead {
     margin-bottom: 30px;
   }
   h1 {
-    font-size: 2rem;
-    font-family: eurofurence;
+
   }
   p {
     font-weight: 300;
   }
   .color1{
-    color: white;
+    color: back;
   }
   .color2{
     color: #FFC600;
@@ -42,7 +41,6 @@ header.masthead {
     }
   }
   @font-face{
-    font-family: eurofurence;
-    src: url(../fonts/eurof55.ttf);
+
   }
 }

@@ -26,10 +26,10 @@ Table of Content:
 06/ feature
 07/ button
 08/ service
-09/ testimonials 
-10/ blog 
-11/ contact 
-12/ footer 
+09/ testimonials
+10/ blog
+11/ contact
+12/ footer
 =====================================================================*/
 /*----------------------------------------------------*/
 /*font Variables*/
@@ -2398,7 +2398,7 @@ i:before {
 
 .footer_copyright .float-sm-left h5 {
   font-size: 14px;
-  color: #2a2f56;
+  color: #fff;
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   font-weight: 500;
@@ -2425,6 +2425,18 @@ i:before {
 .footer_copyright .float-sm-right ul li:hover a {
   color: #fff;
 }
+
+
+.introText {
+  font-family: 'eurofurence_bold56';
+    src: url('../sunshineWebFont/eurof56-webfont.woff2') format('woff2'),
+         url('../sunshineWebFont/eurof56-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* ../sunshineWebFont/ */
 
 /* End Footer Area css
 ============================================================================================ */
